@@ -1,69 +1,79 @@
-/* Apply global font and clean spacing */
+/* 🌿 Frank Lloyd Wright-Inspired Aesthetic */
+
+/* 1️⃣ Elegant, Earthy Background */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #FFFFFF; /* Pure white background */
-    color: #222; /* Dark gray text for readability */
+    font-family: 'Frank Ruhl Libre', serif; /* Classic, dignified font */
+    background-color: #F4E9DC; /* Warm beige, evoking stone & natural materials */
+    color: #3F2F1B; /* Deep brown for contrast */
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-/* Style buttons with subtle borders and shadows */
+/* 2️⃣ Geometric-Inspired Buttons */
 button {
     font-size: 1.3em;
     font-weight: bold;
     padding: 15px 25px;
-    margin: 5px;
-    background-color: #FFF; /* White buttons */
-    color: #222; /* Dark gray text for contrast */
-    border: 1px solid #CCC; /* Soft, neutral border */
-    border-radius: 5px; /* Slightly rounded edges */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Gentle shadow */
-    cursor: pointer;
+    margin: 10px;
+    background-color: #B04128; /* Rusty red, inspired by Wright’s bricks */
+    color: #FDF6C6; /* Soft gold text */
+    border: 1px solid #6D4F36; /* Dark brown edging */
+    border-radius: 4px; /* Minimal rounded edges */
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.3), 2px 2px 6px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Frank Ruhl Libre', serif;
 }
 
 button:hover {
-    background-color: #F8F8F8; /* Light gray on hover */
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+    background-color: #9C3820; /* Slightly deeper red */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Table styling for clean readability */
+/* 3️⃣ Prairie-Style Grid: Classic Table Design */
 table {
-    width: 80%;
-    margin: 30px auto;
+    width: 85%;
+    margin: 40px auto;
     border-collapse: collapse;
-}
-
-th, td {
-    border: 2px solid #222;
-    padding: 12px;
+    border: 3px solid #6D4F36; /* Deep brown for contrast */
+    background-color: #E5D0B8; /* Soft sand tones */
 }
 
 th {
-    background-color: #222;
+    background-color: #6D4F36; /* Rich brown */
     color: white;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
+    padding: 14px;
 }
 
 td {
     text-align: left;
-    background-color: #FFF;
+    background-color: #FAEBD7; /* Antique parchment tone */
+    padding: 14px;
+    border: 3px solid #6D4F36;
 }
 
-/* Alternating row effect for easy reading */
+/* 4️⃣ Alternating Row Texture */
 tr:nth-child(even) {
-    background-color: #F0F0F0;
+    background-color: #DEC5A8; /* Subtle variation for readability */
 }
 
-/* Word display container styling */
+/* 5️⃣ Word Display Box: A Stately Presence */
 #word-display {
     width: 85%;
-    margin: 20px auto;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    padding: 25px;
+    background: #F4E9DC; /* Soft warm tone */
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    border: 3px solid #6D4F36;
+}
+
+/* 6️⃣ Subtle Animations for Elegance */
+button, table, #word-display {
+    transition: all 0.3s ease-in-out;
 }
