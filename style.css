@@ -1,0 +1,69 @@
+/* Apply global font and clean spacing */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #FFFFFF; /* Pure white background */
+    color: #222; /* Dark gray text for readability */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style buttons with subtle borders and shadows */
+button {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 15px 25px;
+    margin: 5px;
+    background-color: #FFF; /* White buttons */
+    color: #222; /* Dark gray text for contrast */
+    border: 1px solid #CCC; /* Soft, neutral border */
+    border-radius: 5px; /* Slightly rounded edges */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Gentle shadow */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #F8F8F8; /* Light gray on hover */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+}
+
+/* Table styling for clean readability */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #222;
+    padding: 12px;
+}
+
+th {
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    background-color: #FFF;
+}
+
+/* Alternating row effect for easy reading */
+tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+/* Word display container styling */
+#word-display {
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
