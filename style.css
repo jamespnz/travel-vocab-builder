@@ -1,79 +1,74 @@
-/* 🌿 Frank Lloyd Wright-Inspired Aesthetic */
+/* 🌊 Subtle Japanese-Inspired Theme */
 
-/* 1️⃣ Elegant, Earthy Background */
+/* 1️⃣ Background: Soft & Atmospheric */
 body {
-    font-family: 'Frank Ruhl Libre', serif; /* Classic, dignified font */
-    background-color: #F4E9DC; /* Warm beige, evoking stone & natural materials */
-    color: #3F2F1B; /* Deep brown for contrast */
+    font-family: 'Noto Serif JP', serif; /* A Japanese-inspired font */
+    background-color: #f8f8f8; /* Soft neutral */
+    color: #2c2c2c; /* Muted dark text */
     text-align: center;
     margin: 0;
     padding: 0;
+    background-image: url('Tsunami_by_hokusai_19th_century.jpg');
+    background-size: cover; /* Ensures full coverage */
+    background-position: center;
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(90%) contrast(85%); /* Gentle tonal effect */
 }
 
-/* 2️⃣ Geometric-Inspired Buttons */
+/* 2️⃣ Buttons: Minimal & Elegant */
 button {
-    font-size: 1.3em;
-    font-weight: bold;
-    padding: 15px 25px;
-    margin: 10px;
-    background-color: #B04128; /* Rusty red, inspired by Wright’s bricks */
-    color: #FDF6C6; /* Soft gold text */
-    border: 1px solid #6D4F36; /* Dark brown edging */
-    border-radius: 4px; /* Minimal rounded edges */
-    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.3), 2px 2px 6px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: 12px 20px;
+    margin: 8px;
+    background-color: #6688aa; /* Muted blue, matching wave tones */
+    color: #ffffff; /* White text for clarity */
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
 }
 
 button:hover {
-    background-color: #9C3820; /* Slightly deeper red */
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    background-color: #4f6f8b; /* Slightly deeper blue */
 }
 
-/* 3️⃣ Prairie-Style Grid: Classic Table Design */
+/* 3️⃣ Table: Soft & Readable */
 table {
     width: 85%;
-    margin: 40px auto;
+    margin: 30px auto;
     border-collapse: collapse;
-    border: 3px solid #6D4F36; /* Deep brown for contrast */
-    background-color: #E5D0B8; /* Soft sand tones */
+    border: 2px solid #ccc; /* Soft gray */
+    background-color: #f3f3f3; /* Gentle off-white */
 }
 
 th {
-    background-color: #6D4F36; /* Rich brown */
+    background-color: #55708a; /* Calmer blue tone */
     color: white;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
-    padding: 14px;
+    padding: 12px;
 }
 
 td {
     text-align: left;
-    background-color: #FAEBD7; /* Antique parchment tone */
-    padding: 14px;
-    border: 3px solid #6D4F36;
+    padding: 12px;
+    border: 2px solid #ccc;
 }
 
-/* 4️⃣ Alternating Row Texture */
-tr:nth-child(even) {
-    background-color: #DEC5A8; /* Subtle variation for readability */
-}
-
-/* 5️⃣ Word Display Box: A Stately Presence */
+/* 4️⃣ Word Display: Subtle Elegance */
 #word-display {
     width: 85%;
     margin: 30px auto;
-    padding: 25px;
-    background: #F4E9DC; /* Soft warm tone */
-    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85); /* Soft translucent white */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
-    border: 3px solid #6D4F36;
+    border: 2px solid #ccc;
 }
 
-/* 6️⃣ Subtle Animations for Elegance */
+/* 5️⃣ Smooth Animations */
 button, table, #word-display {
     transition: all 0.3s ease-in-out;
 }
